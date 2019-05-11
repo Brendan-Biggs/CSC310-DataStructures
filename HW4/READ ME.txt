@@ -1,0 +1,22 @@
+Eastern Kentucky University 
+
+CSC 310 – Data Structures 
+
+HW4 – Queues and LinkedLists 
+
+Brendan Biggs 
+
+2/23/2019 
+
+ 
+
+*NOTE* 
+
+All changes to the contents of the array take place within the code itself, not within the running program
+
+*STEP BY STEP*
+Run the program and default operations will run. Creates a deque which it tries to delete from, but since it is empty it fails. Then populates it with 1 and 2 from front insertion, and 3 from rear insertion, before trying to add another element. Since the queue is already at the full capacity, it fails. Then it. Then it tries to remove another element from the front, but fails. It then removes elements from the front twice, and once from the back. 
+
+Then, it creates two sorted linkedlists, and merges them into one.
+
+Finally it creates and populates a queue, gets the length of the queue, and removes a value before once again geting the length. It then adds another new value, before searching for 4, which it finds, 75, which it does not, returning the first item in the queue, and then checks if the queue is empty
